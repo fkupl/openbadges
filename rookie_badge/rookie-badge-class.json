@@ -1,7 +1,7 @@
 {
 	"name": "Rookie Badge Issuer",
 	"description": "Issues great new Open Badges to self.",
-	"image": "http://openbadges.it-fullservice.com/rookie_badge/rookie-badge-issuer.png",
-	"criteria": "http://openbadges.it-fullservice.com/rookie_badge/rookie-badge-criteria.html",
-	"issuer": "http://openbadges.it-fullservice.com/rookie_badge/badge-issuer.json"
+	"image": "https://raw.githubusercontent.com/fkupl/openbadges/master/rookie_badge/rookie-badge-issuer.png",
+	"criteria": "https://raw.githubusercontent.com/fkupl/openbadges/master/rookie_badge/rookie-badge-criteria.html",
+	"issuer": "https://raw.githubusercontent.com/fkupl/openbadges/master/rookie_badge/badge-issuer.json"
 }
