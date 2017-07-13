@@ -1,14 +1,11 @@
 <html>
-	</head>
-		<script src="https://backpack.openbadges.org/issuer.js"></script>
-		<script type="text/javascript">
-			function assignRookieBadge() {
-				OpenBadges.issue(['https://raw.githubusercontent.com/fkupl/openbadges/master/rookie_badge/rookie-badge-award.json'], function(errors, successes) {});
-			}
-		</script>
 	<head>
+		<script src="https://backpack.openbadges.org/issuer.js"></script>
+	</head>
 	<body>
-		<a href="javascript:void(0);" id="collectRookieBadge" onclick="OpenBadges.issue(['https://raw.githubusercontent.com/fkupl/openbadges/master/rookie_badge/rookie-badge-award.json'], function(errors, successes) {});;" style="display: block;">Claim the Rookie-Badge</a>
-      </p>
+	<div style="text-align: center;">
+		<a href="javascript:void(0);" id="collectRookieBadge" onclick="OpenBadges.issue(['https://raw.githubusercontent.com/fkupl/openbadges/master/rookie_badge/rookie-badge-award.json'], function(errors, successes) {});" style="display: block;">Claim the Rookie-Badge</a>
+		<a href="javascript:void(0);" id="collectTeamplayerBadge" onclick="OpenBadges.issue(['https://raw.githubusercontent.com/fkupl/openbadges/master/teamplayer/teamplayer-badge-award.json'], function(errors, successes) {});" style="display: block;">Claim the Teamplayer-Badge</a>
+	</div>
 	</body>
 </html>
